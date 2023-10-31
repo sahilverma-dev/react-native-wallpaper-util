@@ -30,5 +30,16 @@
   },
   "dependencies": {
     "react-native": "^0.72.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilverma-dev/react-native-wallpaper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sahilverma-dev/react-native-wallpaper/issues"
+  },
+  "homepage": "https://github.com/sahilverma-dev/react-native-wallpaper#readme",
+  "files": [
+    "dist/**/*"
+  ]
 }
