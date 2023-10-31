@@ -16,7 +16,8 @@
   ],
   "main": "index.js",
   "scripts": {
-    "build": " tsc",
+    "build": "npm run tsc",
+    "tsc": "./node_modules/typescript/bin/tsc",
     "prepare": "npm run build"
   },
   "author": "Sahil Verma<sahilverma.webdev@gmail.com>",
@@ -26,9 +27,11 @@
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
-    "react-native": "^0.72.6"
+    "react-native": "^0.72.6",
+    "react": "^18.2.0"
   },
   "dependencies": {
+    "react": "^18.2.0",
     "react-native": "^0.72.6"
   },
   "repository": {
