@@ -1,6 +1,6 @@
 {
   "name": "react-native-wallpaper-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React Native package for setting wallpapers",
   "keywords": [
     "react-native",
@@ -15,20 +15,16 @@
     "screen"
   ],
   "main": "index.js",
-  "scripts": {
-    "build": "npm run tsc",
-    "tsc": "./node_modules/typescript/bin/tsc",
-    "prepare": "npm run build",
-    "test": "node ./dist/index.js"
-  },
+  "types": "index.d.ts",
   "author": "Sahil Verma<sahilverma.webdev@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "tsc": "^2.0.4",
     "typescript": "^5.2.2"
   },
-  "peerDependencies": {},
-  "dependencies": {},
+  "dependencies": {
+    "react-native": "^0.72.6"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sahilverma-dev/react-native-wallpaper.git"
@@ -36,8 +32,5 @@
   "bugs": {
     "url": "https://github.com/sahilverma-dev/react-native-wallpaper/issues"
   },
-  "homepage": "https://github.com/sahilverma-dev/react-native-wallpaper#readme",
-  "files": [
-    "dist/**/*"
-  ]
+  "homepage": "https://github.com/sahilverma-dev/react-native-wallpaper#readme"
 }
