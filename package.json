@@ -27,10 +27,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sahilverma-dev/react-native-wallpaper.git"
+    "url": "git+https://github.com/sahilverma-dev/react-native-wallpaper-util.git"
   },
   "bugs": {
-    "url": "https://github.com/sahilverma-dev/react-native-wallpaper/issues"
+    "url": "https://github.com/sahilverma-dev/react-native-wallpaper-util/issues"
   },
-  "homepage": "https://github.com/sahilverma-dev/react-native-wallpaper#readme"
+  "homepage": "https://github.com/sahilverma-dev/react-native-wallpaper-util#readme"
 }
