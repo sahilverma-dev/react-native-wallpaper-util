@@ -1,10 +1,8 @@
-# React Native Wallpaper (Reserved)
+# React Native Wallpaper Utility Function (Reserved)
 
-This is a reserved package name and is currently in development. The actual package will be made available soon. This repository is used to ensure that the package name is not taken by others.
+This is a reserved package name for "react-native-wallpaper-util." Currently, it's in development and not functional. The actual package with utility functions related to wallpapers will be made available soon.
 
-## Usage
-
-You can't use this package at the moment, as it's just a placeholder for the future package. Please keep an eye on this repository for updates.
+Please do not attempt to publish or use this package until the official release. Thank you for your understanding and patience.
 
 ## License
 
