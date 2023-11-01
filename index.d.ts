@@ -1,7 +1,5 @@
-import { ImageURISource } from "react-native";
-
 declare module "react-native-wallpaper-util" {
-  interface SetWallpaperOptions {
+  interface ImageURISource {
     uri: string;
     screen: "HOME" | "LOCK" | "BOTH";
   }
@@ -10,7 +8,6 @@ declare module "react-native-wallpaper-util" {
 
   const setWallpaper: (
     source: ImageURISource,
-    options: SetWallpaperOptions,
     callback: SetWallpaperCallback
   ) => void;
 
