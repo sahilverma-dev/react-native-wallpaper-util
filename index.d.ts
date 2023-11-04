@@ -1,13 +1,12 @@
 declare module "react-native-wallpaper-util" {
   interface ImageURISource {
     uri: string;
-    screen: "HOME" | "LOCK" | "BOTH";
-    callback?: SetWallpaperCallback;
+    screen: "home" | "lock" | "both";
   }
 
-  type SetWallpaperCallback = () => void;
+  type Callback = (data: any) => void;
 
-  const setWallpaper: (source: ImageURISource) => void;
+  const setWallpaper: (source: ImageURISource, callback?: Callback) => void;
 
   export { setWallpaper };
 }

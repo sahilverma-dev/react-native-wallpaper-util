@@ -1,4 +1,4 @@
-package com.sahil_verma.reactnative.wallpaper;
+package com.ajaybhatia.reactnative.wallpaper;
 
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
@@ -143,11 +143,11 @@ public class WallPaperManager extends ReactContextBaseJavaModule {
                 Bitmap mBitmap = BitmapFactory.decodeResource(this.getReactApplicationContext().getResources(), resId);
                 try
                 {
-                    if(screen.equals("LOCK")){
+                    if(screen.equals("lock")){
                         wallpaperManager.setBitmap(mBitmap, null, true, WallpaperManager.FLAG_LOCK);
-                    } else if(screen.equals("HOME")){
+                    } else if(screen.equals("home")){
                         wallpaperManager.setBitmap(mBitmap, null, true, WallpaperManager.FLAG_SYSTEM);
-                    } else if(screen.equals("BOTH")){
+                    } else if(screen.equals("both")){
                         wallpaperManager.setBitmap(mBitmap, null, true, WallpaperManager.FLAG_LOCK | WallpaperManager.FLAG_SYSTEM);
                     }
                     sendMessage("success","Set Wallpaper Success",source);
@@ -232,11 +232,11 @@ public class WallPaperManager extends ReactContextBaseJavaModule {
                 Bitmap bitmap = BitmapFactory.decodeByteArray(resource, 0, resource.length);
                 try
                 {
-                    if(screen.equals("LOCK")){
+                    if(screen.equals("lock")){
                         wallpaperManager.setBitmap(bitmap, null, true, WallpaperManager.FLAG_LOCK);
-                    } else if(screen.equals("HOME")){
+                    } else if(screen.equals("home")){
                         wallpaperManager.setBitmap(bitmap, null, true, WallpaperManager.FLAG_SYSTEM);
-                    } else if(screen.equals("BOTH")){
+                    } else if(screen.equals("both")){
                         wallpaperManager.setBitmap(bitmap, null, true, WallpaperManager.FLAG_LOCK | WallpaperManager.FLAG_SYSTEM);
                     }
                     sendMessage("success","Set Wallpaper Success",source);
